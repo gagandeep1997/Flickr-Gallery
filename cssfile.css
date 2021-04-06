@@ -135,3 +135,14 @@ html{
 .download-image-grid{
   color: white;
 }
+.container-fluid.slideshow-1{
+  background-color: white;
+  padding-bottom: 150px;
+  overflow-x: hidden;
+}
+.d-sm-flex.flex-row.slideshow-bottom-row{
+  justify-content: space-between;
+}
+.d-flex.flex-column.pagenoslide{
+  align-items: flex-end;
+}

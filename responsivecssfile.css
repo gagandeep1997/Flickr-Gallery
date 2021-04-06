@@ -56,8 +56,8 @@
     }
     .mySlides{
         max-width: 100%;
-        width: 200px;
-        height: 200px;
+        width: 180px;
+        height: 180px;
     }
     #prev_but,#next_but {
         text-decoration: none;
@@ -66,5 +66,17 @@
     }
     .round {
         border-radius: 50%;
+    }
+    .container-fluid.slideshow-1{
+        padding-bottom: 200px;
+    }
+    #prev_but,#next_but {
+        padding: 4px 8px;
+    }
+    .top-50{
+        top: 25%!important;
+    }
+    .d-flex.flex-column.pagenoslide{
+        align-items: flex-start !important;
     }
 }
