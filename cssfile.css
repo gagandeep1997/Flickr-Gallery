@@ -1,0 +1,137 @@
+html{
+  overflow-x: hidden;
+}
+#gridview{
+  background-color: rgb(235, 235, 235);
+  padding-left: 150px;
+  padding-right: 150px;
+  overflow-x: hidden;
+}
+.container-fluid.gridview-1{
+  background-color: white;
+  padding-bottom: 100px;
+  overflow-x: hidden;
+}
+.d-flex.flex-row.front-heading-1{
+  justify-content: space-between;
+  padding-right: 15px;
+  color: red;
+}
+.flikr-heading{
+  margin-top: 10px;
+}
+.container-fluid.container-vl{
+  width: 98%;
+  margin-right: 20px;
+}
+.vl{
+  border-top: 1px solid rgb(214, 212, 212);
+  height: 20px;
+}
+#slideshow{
+  margin-left: 60px;
+}
+.d-flex.flex-row.view-slideshow-row{
+  margin-right: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+.d-sm-flex.flex-row.grid-row.mb-3{
+  justify-content: space-between;
+  padding-right: 15px;
+}
+.container-1 {
+  position: relative;
+  width: 50%;
+}
+.image {
+  display: block;
+  width: 220px;
+  height: 220px;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #d62424;
+  overflow: hidden;
+  width: 200%;
+  height: 0;
+  transition: .5s ease;
+}
+.container-1:hover .overlay {
+  height: 20%;
+}
+.text {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.container-fluid.d-sm-flex.flex-row.grid-bottom-row{
+  justify-content: space-between;
+  padding-right: 28px;
+}
+#quantity{
+  width: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 30px;
+}
+#go{
+  height: 30px;
+  background-color: red;
+}
+#next{
+  margin-left: 10px;
+}
+#main_slideshow{
+  background-color: rgb(235, 235, 235);
+  padding-left: 150px;
+  padding-right: 150px;
+  overflow-x: hidden;
+}
+#prev_but,#next_but {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+#prev_but:hover,#next_but:hover {
+  background-color: #ddd;
+  color: black;
+}
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+.next {
+  background-color: #4CAF50;
+  color: white;
+}
+.round {
+  border-radius: 50%;
+}
+.mySlides{
+  max-width: 100%;
+  width: 650px;
+  height: 500px;
+}
+.ownerclass{
+  margin-top: -10px;
+}
+.download-image-slideshow{
+  margin-top: -10px;
+  color: red;
+}
+#owner{
+  color: red;
+}
+.download-image-grid{
+  color: white;
+}

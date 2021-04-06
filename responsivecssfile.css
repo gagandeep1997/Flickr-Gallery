@@ -1,0 +1,70 @@
+@media (max-width: 576px){
+    html{
+        overflow-x: hidden;
+    }
+    #gridview{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    #slideshow{
+        margin-left: 0px;
+    }
+    .d-flex.flex-row.gotorow{
+        margin-top: 3px;
+    }
+    .container-fluid.d-sm-flex.flex-row.grid-bottom-row{
+        padding-right: 1px;
+    }
+    #quantity{
+        margin-left: 5px;
+    }
+    .d-flex.flex-row.view-slideshow-row{
+        margin-right: 0px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .d-sm-flex.flex-row.grid-row.mb-3{
+        padding-right: 0px;
+    }
+    .grid-view-item{
+        margin-bottom: 10px;
+    }
+    .image {
+        width: 170px;
+        height: 170px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container-1 {
+        width: 100%;
+    }
+    #next{
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+    .d-flex.flex-row.front-heading-1{
+        padding-right: 0px;
+        align-items: center;
+    }
+    .flikr-heading{
+        text-align: end;
+    }
+    #main_slideshow{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .mySlides{
+        max-width: 100%;
+        width: 200px;
+        height: 200px;
+    }
+    #prev_but,#next_but {
+        text-decoration: none;
+        display: inline-block;
+        padding: 4px 8px;
+    }
+    .round {
+        border-radius: 50%;
+    }
+}
