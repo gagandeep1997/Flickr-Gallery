@@ -43,12 +43,9 @@
         margin-left: 0px;
         margin-top: 5px;
     }
-    .d-flex.flex-row.front-heading-1{
+    .d-sm-flex.flex-row.front-heading-1{
         padding-right: 0px;
         align-items: center;
-    }
-    .flikr-heading{
-        text-align: end;
     }
     #main_slideshow{
         padding-left: 70px;
@@ -68,7 +65,7 @@
         border-radius: 50%;
     }
     .container-fluid.slideshow-1{
-        padding-bottom: 200px;
+        padding-bottom: 321px;
     }
     #prev_but,#next_but {
         padding: 4px 8px;

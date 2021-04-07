@@ -12,7 +12,7 @@ html{
   padding-bottom: 100px;
   overflow-x: hidden;
 }
-.d-flex.flex-row.front-heading-1{
+.d-sm-flex.flex-row.front-heading-1{
   justify-content: space-between;
   padding-right: 15px;
   color: red;
